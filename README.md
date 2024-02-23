@@ -10,7 +10,7 @@ This Django project focuses on creating a user database with essential fields su
 
 ```bash
 git clone https://github.com/gchoi5738/user-db.git
-cd your-project
+cd user-db
 ```
 2. Setup Virtual Environment:
 ```bash
@@ -32,8 +32,9 @@ python manage.py createsuperuser
 6. Run the Development Server:
 ```bash
 python manage.py runserver
-Access the Django Admin Interface at http://127.0.0.1:8000/admin/ to manage user records.
 ```
+Access the Django Admin Interface at http://127.0.0.1:8000/admin/ to manage user records.
+
 Project Structure
 user_management_app: Django app for user management
 
