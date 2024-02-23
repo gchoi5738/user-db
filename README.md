@@ -37,10 +37,17 @@ Access the Django Admin Interface at http://127.0.0.1:8000/admin/ to manage user
 Project Structure
 user_management_app: Django app for user management
 
-models.py: Defines the data models, including the User model.
-views.py: Handles views and logic related to user interactions.
-urls.py: Maps URLs to views within the app.
-Database: The project uses Django's default SQLite database for simplicity. Adjust the database settings in settings.py for production use.
+
+models.py: Defines the data models, including the User model. 
+
+
+views.py: Handles views and logic related to user interactions. 
+
+
+urls.py: Maps URLs to views within the app. 
+
+
+Database: The project uses Django's default SQLite database for simplicity.
 
 Usage
 Create a New User: Navigate to http://127.0.0.1:8000/admin/ and log in with the superuser credentials. Create new users through the Django Admin Interface.
